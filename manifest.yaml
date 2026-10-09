@@ -1,0 +1,19 @@
+# manifest.yaml - self-description of this repository (Scheibe 7 proof).
+# A tiny stand-in for a customer's legacy software: no DSL, the factory
+# never writes here. Registered as a contributed repository of the test
+# account and attached EXTERNAL to its workspace.
+schema: 1
+kind: contributed
+name: ax-test-legacy
+account: f42d6ad8-b3f5-4f88-9f38-031539084647
+repo:
+  owner: Markibo1001
+  name: ax-test-unit-6a
+services:
+  - name: legacy-api
+    kind: external
+    endpoints:
+      - https://legacy.example.test/api
+contracts:
+  publishes: []
+  consumes: []
